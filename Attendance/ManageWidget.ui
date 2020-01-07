@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManageWidget</class>
+ <widget class="QWidget" name="ManageWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>668</width>
+    <height>323</height>
+   </rect>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_3">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="styleSheet">
+      <string notr="true">font: 75 9pt &quot;黑体&quot;;</string>
+     </property>
+     <property name="title">
+      <string>User Manage</string>
+     </property>
+     <widget class="QTreeWidget" name="userTable">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>301</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <column>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>CardId</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Class</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Dormitory</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>StudentID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Status</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="guashiBtn">
+      <property name="geometry">
+       <rect>
+        <x>31</x>
+        <y>20</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+font-family:heiti;
+	font: 75 10pt &quot;黑体&quot;;
+height:20px;
+width:60px;
+color:white;
+background-color:rgb(1, 70, 39);
+border-radius:8px;
+}</string>
+      </property>
+      <property name="text">
+       <string>挂失</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="addBtn">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>20</y>
+        <width>62</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+font-family:heiti;
+	font: 75 10pt &quot;黑体&quot;;
+height:20px;
+width:60px;
+color:white;
+background-color:rgb(1, 70, 39);
+border-radius:8px;
+}</string>
+      </property>
+      <property name="text">
+       <string>添加</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="delBtn2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+font-family:heiti;
+	font: 75 10pt &quot;黑体&quot;;
+height:20px;
+width:60px;
+color:white;
+background-color:rgb(1, 70, 39);
+border-radius:8px;
+}</string>
+      </property>
+      <property name="text">
+       <string>删除临时卡</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="delBtn">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>50</y>
+        <width>62</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+font-family:heiti;
+	font: 75 10pt &quot;黑体&quot;;
+height:20px;
+width:60px;
+color:white;
+background-color:rgb(1, 70, 39);
+border-radius:8px;
+}</string>
+      </property>
+      <property name="text">
+       <string>毕业删除</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="modifyBtn">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>50</y>
+        <width>61</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+font-family:heiti;
+	font: 75 10pt &quot;黑体&quot;;
+height:20px;
+width:60px;
+color:white;
+background-color:rgb(1, 70, 39);
+border-radius:8px;
+}</string>
+      </property>
+      <property name="text">
+       <string>修改</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="refreshBtn2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>20</y>
+        <width>61</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+font-family:heiti;
+	font: 75 10pt &quot;黑体&quot;;
+height:20px;
+width:60px;
+color:white;
+background-color:rgb(1, 70, 39);
+border-radius:8px;
+}</string>
+      </property>
+      <property name="text">
+       <string>刷新</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="styleSheet">
+      <string notr="true">font: 75 9pt &quot;黑体&quot;;</string>
+     </property>
+     <property name="title">
+      <string>Log Viewer</string>
+     </property>
+     <widget class="QTreeWidget" name="logTable">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>291</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Date</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Card ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Operation</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QLineEdit" name="inputEdit">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>40</y>
+        <width>141</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="queryBtn">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>40</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+font-family:heiti;
+	font: 75 10pt &quot;黑体&quot;;
+height:20px;
+width:60px;
+color:white;
+background-color:rgb(1, 70, 39);
+border-radius:8px;
+}</string>
+      </property>
+      <property name="text">
+       <string>查询</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="refreshBtn">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>40</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+font-family:heiti;
+	font: 75 10pt &quot;黑体&quot;;
+height:20px;
+width:60px;
+color:white;
+background-color:rgb(1, 70, 39);
+border-radius:8px;
+}</string>
+      </property>
+      <property name="text">
+       <string>刷新</string>
+      </property>
+     </widget>
+     <zorder>logTable</zorder>
+     <zorder>groupBox</zorder>
+     <zorder>groupBox</zorder>
+     <zorder>groupBox</zorder>
+     <zorder>groupBox</zorder>
+     <zorder>formLayoutWidget</zorder>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
